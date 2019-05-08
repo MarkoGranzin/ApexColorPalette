@@ -21,7 +21,7 @@
  "oracle" : {
     "versions" : ["11.2.0.1","12.1.0.1","12.2.0.1"],
     "apex" : {
-      "versions" : ["18.1.0","18.2.0","19.1.0"],
+      "versions" : ["5.1.4","18.1.0","18.2.0","19.1.0"],
       "plugin" : {
         "internalName" : "APEX.COLOR.PALETTE",
         "type" : "region",
