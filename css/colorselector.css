@@ -1,0 +1,20 @@
+.circle {
+    border: 2px solid #666666;
+    border-radius: 50%;
+    float: left;
+    width: 2em;
+    height: 2em;
+    z-index: 10000;
+}
+
+.colorselector {
+    display: none;
+    text-align: left;
+    position: fixed;
+    background: #FFFFFF;
+    z-index: 9999;
+    max-width: 100%;
+    padding-left: 2px;
+    padding-top: 2px;
+    box-sizing: content-box
+}

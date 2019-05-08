@@ -1,0 +1,33 @@
+{
+  "name" : "APEX Color Palette",
+  "version" : "1.0.0",
+  "description" : "This plug in is an easy to use material design color palette. Use your own collor palette or the material design colors.",
+  "keywords" : ["oracle","apex","plugin","color","item","mobile","responsive"],
+  "homepage" : "https://github.com/MarkoGranzin/ApexColorPalette",
+  "bugs" : {
+    "url" : "https://github.com/MarkoGranzin/ApexColorPalette/issues",
+    "email" : "marko.granzin@gmx.de"
+  },
+  "license" : "MIT",
+  "author" : {
+    "name" : "Marko Granzin",
+    "email" : "marko.granzin@gmx.de",
+    "donationUrl" : "https://www.paypal.me/Medinchen"
+  },
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/MarkoGranzin/ApexColorPalette"
+  },
+ "oracle" : {
+    "versions" : ["11.2.0.1","12.1.0.1","12.2.0.1"],
+    "apex" : {
+      "versions" : ["18.1.0","18.2.0","19.1.0"],
+      "plugin" : {
+        "internalName" : "APEX.COLOR.PALETTE",
+        "type" : "region",
+        "demo" : "https://apex.oracle.com/pls/apex/f?p=24068",
+        "previewImage" : "https://raw.githubusercontent.com/MarkoGranzin/ApexColorPalette/master/screenshot.gif"
+      }
+    }
+  }
+}
