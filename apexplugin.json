@@ -24,7 +24,7 @@
       "versions" : ["5.1.4","18.1.0","18.2.0","19.1.0"],
       "plugin" : {
         "internalName" : "APEX.COLOR.PALETTE",
-        "type" : "region",
+        "type" : "item",
         "demo" : "https://apex.oracle.com/pls/apex/f?p=24068",
         "previewImage" : "https://raw.githubusercontent.com/MarkoGranzin/ApexColorPalette/master/screenshot.gif"
       }
