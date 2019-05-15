@@ -162,7 +162,7 @@ wwv_flow_api.create_plugin(
 ,p_subscribe_plugin_settings=>true
 ,p_is_quick_pick=>true
 ,p_help_text=>'Just add this item to your application and it already works. If you want you can overwrite colors check the help of the  Color Json.'
-,p_version_identifier=>'1.0.1'
+,p_version_identifier=>'1.0.2'
 ,p_about_url=>'https://github.com/MarkoGranzin/ApexColorPalette'
 ,p_files_version=>98
 );
