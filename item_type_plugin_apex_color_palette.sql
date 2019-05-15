@@ -13,11 +13,11 @@ whenever sqlerror exit sql.sqlcode rollback
 --------------------------------------------------------------------------------
 begin
 wwv_flow_api.import_begin (
-  p_version_yyyy_mm_dd=>'2016.08.24'
-,p_release=>'5.1.4.00.08'
-,p_default_workspace_id=>100000
-,p_default_application_id=>50000
-,p_default_owner=>'MARKOGRANZIN'
+ p_version_yyyy_mm_dd=>'2019.03.31'
+,p_release=>'19.1.0.00.15'
+,p_default_workspace_id=>1649663407429859447
+,p_default_application_id=>24068
+,p_default_owner=>'MEDIS'
 );
 end;
 /
@@ -131,7 +131,7 @@ wwv_flow_api.create_plugin(
 '    ',
 '     APEX_JAVASCRIPT.ADD_ONLOAD_CODE( ''colorselector.initialize(''',
 '     || APEX_JAVASCRIPT.ADD_VALUE( p_item.name, TRUE ) ',
-'     || APEX_JAVASCRIPT.ADD_VALUE( l_color_json, TRUE ) ',
+'     || APEX_JAVASCRIPT.ADD_VALUE( l_color_json, FALSE ) ',
 '     || '');'' );',
 '        p_result.is_navigable := not l_is_disabled;',
 'end render;',
@@ -162,7 +162,8 @@ wwv_flow_api.create_plugin(
 ,p_subscribe_plugin_settings=>true
 ,p_is_quick_pick=>true
 ,p_help_text=>'Just add this item to your application and it already works. If you want you can overwrite colors check the help of the  Color Json.'
-,p_version_identifier=>'1.0'
+,p_version_identifier=>'1.0.1'
+,p_about_url=>'https://github.com/MarkoGranzin/ApexColorPalette'
 ,p_files_version=>98
 );
 wwv_flow_api.create_plugin_attribute(
